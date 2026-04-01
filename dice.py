@@ -83,4 +83,5 @@ while is_running:
                 print(dice_odds[odd][index], end=" ")
             print()
             time.sleep(0.5)
+        print(f"Total = {sum(deal)}")
 
